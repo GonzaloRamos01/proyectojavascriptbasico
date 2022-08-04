@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nombre":"Remera",
-        "img":"./images/remera-under-armour.jpg",
+        "img":"images/remera-under-armour.jpg",
         "marca":"Under Armour",
         "precio": 3500,
         "stock":3
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "nombre":"Zapatillas",
-        "img":"./images/zapatillas-adidas.webp",
+        "img":"images/zapatillas-adidas.webp",
         "marca":"Adidas",
         "precio": 13000,
         "stock":5
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "nombre":"Pantalón",
-        "img":"./images/pantalon-puma.webp",
+        "img":"images/pantalon-puma.webp",
         "marca":"Puma",
         "precio": 7000,
         "stock":6
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "nombre":"Buzo",
-        "img":"./images/buzo-nike.jpg",
+        "img":"images/buzo-nike.jpg",
         "marca":"Nike",
         "precio": 12000,
         "stock":2
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "nombre":"Camisa",
-        "img":"./images/camisa-armani.jpg",
+        "img":"images/camisa-armani.jpg",
         "marca":"Armani Exchange",
         "precio": 12500,
         "stock":3
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "nombre":"Cartera",
-        "img":"./images/cartera-vs.jpg",
+        "img":"images/cartera-vs.jpg",
         "marca":"Victoria Secret",
         "precio": 35000,
         "stock":5
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "nombre":"Ojota",
-        "img":"./images/ojota-dg.webp",
+        "img":"/images/ojota-dg.webp",
         "marca":"Dolce & Gabbana",
         "precio": 20000,
         "stock":2
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "nombre":"Chaqueta de cuero",
-        "img":"./images/chaqta-versace.jpg",
+        "img":"/images/chaqta-versace.jpg",
         "marca":"Versace",
         "precio": 12500,
         "stock":2
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "nombre":"Buzo",
-        "img":"./images/louis.jpg",
+        "img":"/images/louis.jpg",
         "marca":"Louis Vuitton",
         "precio": 33500,
         "stock":1
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "nombre":"Buzo",
-        "img":"./images/drew.jpg",
+        "img":"/images/drew.jpg",
         "marca":"Drew",
         "precio": 13500,
         "stock":3
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "nombre":"Billetera",
-        "img":"./images/billetera.webp",
+        "img":"/images/billetera.webp",
         "marca":"Tommy Hilfiger",
         "precio": 7000,
         "stock":8
