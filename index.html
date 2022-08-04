@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="shortcut icon" href="images/icono-removebg-preview.png">
+    <title>Indumentaria shop</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="licontainer">
+                <li class="li"><a class="lilink" href="index.html">Inicio</a></li>
+                <li class="li"><a class="lilink" href="#Productos">Productos</a></li>
+                <li class="li"><a class="lilink" href="#Carrito">Carrito</a></li>
+            </ul>
+            <h1 class="titulobienvenido" id="Productos"> ¡ BIENVENIDO A INDUMENTARIA SHOP !</h1>
+        </nav>
+    </header>
+    
+    <div id="galeriaProductos" class="prodcontainer">
+
+    </div>
+
+    <section class="carritocompras" id="Carrito">
+        <div class="contenedorclasescarrito">
+            <h1 class="titulocarrito">CARRITO DE COMPRAS</h1>
+            <div class="contenedorcolumnascart">
+                <div >
+                    <div>
+                        <h6 class="columna">Producto</h6>
+                    </div>
+                </div>
+                <div >
+                    <div >
+                        <h6 class="columna">Marca</h6>
+                    </div>
+                </div>
+                <div >
+                    <div>
+                        <h6 class="columna">Precio</h6> 
+                    </div>
+                </div>
+                <div >
+                    <div >
+                        <h6 class="columna">Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+            <div id="divCarrito"></div>
+            
+    </section>
+    
+    <div id="preciototal">      
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

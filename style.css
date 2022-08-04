@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,500;1,100&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: bisque;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.licontainer{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.lilink{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 2s;
+}
+
+.lilink:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    padding-bottom: 1px;
+    color: white;
+    transition:all 0.2s;
+    font-weight: bold;
+}
+
+.titulobienvenido{
+    text-align: center;
+    background-color: bisque;
+    transition: all 2s;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*GALERIA DE PRODUCTOS*/
+
+.prodcontainer{
+    padding-top:5rem ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    background-color: white;
+    width: 16rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin:30px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 15px;
+}
+
+.card-marca{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.card-precio{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.btn{
+    border: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    padding-bottom: 1px;
+    transition:all 0.2s;
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/*Section Carrito  de compras*/
+/*CABECERA CARRITO DE COMPRA*/
+.carritocompras{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.contenedorclasescarrito{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.contenedorcolumnascart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titulocarrito{
+    font-size: 2rem;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.columna{
+    color: black;
+    font-size: larger;
+    border-bottom: 2px black solid;
+    width: 200px;
+}
+
+/*ITEMS DENTRO DEL CARRITO DE COMPRA*/
+
+.cartContenedor{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 30px;
+}
+
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imagencarrito{
+    width: 80px;
+    height: 80px;
+}
+
+.itemImagen{
+    width: 200px;
+
+}
+
+.contenedormarca{
+
+    width: 200px;
+}
+
+.contenedorcantidad{
+    width: 200px;
+}
+
+.cantidad{
+    width: 200px;
+    text-align: center;
+}
+
+.contenedorprecio{
+    width: 200px;
+}
+
+.btnremove{
+    color: white;
+    background-color: red;
+    border:none;
+    padding: 5px;
+    font-weight: bolder;  
+    width: auto;  
+}
+
+.btnremove:hover{
+    cursor: pointer;
+}
+
+#preciototal{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.compra{
+    background-color: rgb(46, 255, 46);
+    padding: 15px;
+    border: 1px black solid;
+    border-radius: 5%;
+    font-size: large;
+}
